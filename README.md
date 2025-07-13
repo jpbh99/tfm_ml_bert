@@ -55,33 +55,11 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Cómo usar
-
-### Entrenar modelos clásicos:
-
-```bash
-python src/modelos_clasicos.py
-```
-
-### Entrenar modelo BERT:
-
-```bash
-python src/train_bert.py
-```
-
-### Ejecutar modelado de temas:
-
-```bash
-python src/topic_modeling.py
-```
-
----
-
 ## 📊 Evaluación
 
 - Accuracy, F1-score, Precision, Recall
-- Friedman Test y test de Nemenyi para comparar modelos
-- Coherence score y Topic Diversity para evaluar temas
+- Friedman Test para comparar modelos
+- Coherence score para evaluar temas
 
 ---
 
@@ -96,7 +74,6 @@ Este proyecto utiliza un conjunto de datos de noticias etiquetadas como verdader
 ## 🔗 Enlaces relevantes
 
 - [TFM completo en PDF](https://link-a-tu-tfm.com)
-- [Repositorio en Hugging Face (si aplica)](https://huggingface.co/tu-modelo)
 - [Dataset original (si es público)](https://kaggle.com/...)
 
 ---
