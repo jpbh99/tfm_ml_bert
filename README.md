@@ -58,7 +58,7 @@ pip install -r requirements.txt
 ## 📊 Evaluación
 
 - Accuracy, F1-score, Precision, Recall
-- Friedman Test para comparar modelos
+- Matriz de Confusión
 - Coherence score para evaluar temas
 
 ---
