@@ -20,11 +20,16 @@ Este repositorio contiene el código desarrollado para el Trabajo de Fin de Más
 📁 datasets/                     # Datos procesados y ejemplos (pueden ser .csv)
 📁 models/                       # Notebooks explicativos y experimentales
 📁 notebooks/
-    ├── preprocesamiento.py      # Limpieza y tokenización de textos
-    ├── train_bert.py            # Entrenamiento y evaluación de modelo BERT
-    ├── modelos_clasicos.py      # Entrenamiento de SVM, Random Forest, etc.
-    ├── topic_modeling.py        # BERTopic y LDA
-    └── utils.py                 # Funciones auxiliares
+    ├── ML_fake_news_opt                  # Limpieza y tokenización de textos
+    ├── ML_fake_news.py                   # Entrenamiento y evaluación de modelo BERT
+    ├── Bert_fake_news.py                 # Entrenamiento de SVM, Random Forest, etc.
+    ├── Bert_sentiment_analysis.py        # BERTopic y LDA
+    ├── Topic_Modeling_LDA.py             # BERTopic y LDA
+    ├── ML_sentiment_analysis_opt.py      # BERTopic y LDA
+    ├── Topic_Modeling_Bertopic_opt.py    # BERTopic y LDA
+    ├── Topic_Modeling_Bertopic.py        # BERTopic y LDA
+    ├── final.py                          # BERTopic y LDA
+    └── ML_sentiment_analysis.py          # Funciones auxiliares
 README.md
 requirements.txt
 ```
