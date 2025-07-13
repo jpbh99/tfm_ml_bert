@@ -17,9 +17,9 @@ Este repositorio contiene el código desarrollado para el Trabajo de Fin de Más
 ## 🗂 Estructura del repositorio
 
 ```
-📁 data/                     # Datos procesados y ejemplos (pueden ser .csv)
-📁 notebooks/                # Notebooks explicativos y experimentales
-📁 src/
+📁 datasets/                     # Datos procesados y ejemplos (pueden ser .csv)
+📁 models/                       # Notebooks explicativos y experimentales
+📁 notebooks/
     ├── preprocesamiento.py      # Limpieza y tokenización de textos
     ├── train_bert.py            # Entrenamiento y evaluación de modelo BERT
     ├── modelos_clasicos.py      # Entrenamiento de SVM, Random Forest, etc.
